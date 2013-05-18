@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/test_bg">
+	<ScrollView
+	 	android:layout_width="fill_parent" 
+	 	android:layout_height="fill_parent">
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content" 
+	    android:orientation="vertical">	 	
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="@string/main_wirkleistung"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Einphasig"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_weight="50"
+            android:text="P= "
+            android:textColor="#000000"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:layout_weight="50"
+            android:text="U * I * cosφ* η"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#000000" />
+
+    </TableRow>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Dreiphasig"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+	<TableRow
+	    android:id="@+id/tableRow2"
+	    android:layout_width="match_parent"
+	    android:layout_height="40dp"
+	    android:layout_gravity="center"
+	    android:layout_marginTop="20dp" >
+
+		<TextView
+		    android:id="@+id/textView6"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_marginLeft="30dp"
+		    android:layout_weight="50"
+		    android:text="P="
+		    android:textColor="#000000"
+		    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+		<TextView
+		    android:id="@+id/textView7"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_marginRight="30dp"
+		    android:layout_weight="50"
+		    android:text="√3 * U * I * cosφ * η"
+		    android:textAppearance="?android:attr/textAppearanceMedium"
+		    android:textColor="#000000" />
+
+	</TableRow>
+
+	<TextView
+	    android:id="@+id/textView8"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+	    android:text="@string/groessen"
+	    android:textAppearance="?android:attr/textAppearanceMedium"
+	    android:textColor="#000000"
+	    android:textStyle="bold" />
+
+	    <TextView
+	        android:id="@+id/textView7"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:layout_marginTop="5dp"
+	        android:text="P= Wirkleistung (W)"
+	        android:textAppearance="?android:attr/textAppearanceSmall"
+	        android:textColor="#000000" />
+  
+	    <TextView
+	        android:id="@+id/textView7"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:text="U= Spannung (V)"
+	        android:textAppearance="?android:attr/textAppearanceSmall"
+	        android:textColor="#000000" />
+ 		
+	    <TextView
+	        android:id="@+id/textView7"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:text="I= Stromstärke (A)"
+	        android:textAppearance="?android:attr/textAppearanceSmall"
+	        android:textColor="#000000" />
+ 	
+	    <TextView
+	        android:id="@+id/textView7"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:text="cosφ= Leistungsfaktor"
+	        android:textAppearance="?android:attr/textAppearanceSmall"
+	        android:textColor="#000000" />
+ 	
+	    <TextView
+	        android:id="@+id/textView7"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:text="η= Wirkungsgrad"
+	        android:textAppearance="?android:attr/textAppearanceSmall"
+	        android:textColor="#000000" />
+
+	 <Button
+	     android:id="@+id/btfehler"
+	     android:layout_width="fill_parent"
+	     android:layout_height="wrap_content"
+	     android:layout_gravity="center"
+	     android:layout_marginLeft="10dp"
+	     android:layout_marginRight="10dp"
+	     android:layout_marginTop="10dp"
+	     android:text="@string/btformelergenzen" />
+	      <com.google.ads.AdView 
+      	android:id="@+id/ad"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		ads:adUnitId="a14fae69a4e66d4"
+		ads:loadAdOnCreate="true"
+		ads:adSize="BANNER" />
+
+ 	</LinearLayout>
+	</ScrollView>  	    	         
+</LinearLayout>

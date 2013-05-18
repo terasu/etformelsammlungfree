@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Electrical formulas</string>
+    <string name="info_textone">The whole app is available in German. This app is only as a reference book formula.</string>
+    <string name="info_texttwo">For suggestions, corrections or other questions please feel free to contact me by email.</string>
+    <string name="info_texttre">There is one ad-free version of this app.</string>
+    <string name="info_titel">About this App</string>
+    <string name="info_sendenbt">send E-mail</string>
+    <string name="main_ohmschesgesetz">Ohm`s law</string>
+    <string name="main_widerstandundmaterial">Resistance and material</string>
+    <string name="main_tempeinfluss">Effect of temperature on resistance</string>
+    <string name="main_stromdichte">current density</string>
+    <string name="main_elektrischestromstärke">Electric current</string>
+    <string name="main_widerstandundleitert">Resistance and conductance</string>
+    <string name="main_kondensator">capacitor</string>
+    <string name="main_zugfestigkeit">tensile strength</string>
+    <string name="main_leistung">electrical power</string>
+    <string name="main_wirkleistung">active Power</string>
+    <string name="main_leistungsdreieck">power triangle</string>
+    <string name="main_wirkungsgrad">efficiency</string>
+    <string name="main_serieschaltung">series circuit</string>
+    <string name="main_parallelschaltung">parallel circuit</string>
+    <string name="main_galvanischeselement">A galvanic cell</string>
+    <string name="main_magnetischedurchflutung">Magnetic flux</string>
+    <string name="main_induktionsgesetz">law of induction</string>
+    <string name="main_kosten">costs</string>
+    <string name="main_waerme">heat</string>
+    <string name="main_frequndperiodendauer">Frequency and period</string>
+    <string name="main_sterndreieck">Star-delta connection</string>
+    <string name="main_transformator">transformer</string>
+    <string name="main_leistungsbestimmung">service provision</string>
+    <string name="btformelergenzen">Errors / additions to the formula?</string>
+    <string name="main_bt_senden">Send</string>
+    <string name="main_kirchhoffschesgesetz">Kirchhoff`s law</string>
+    <string name="groessen">Grössen:</string>
+</resources>

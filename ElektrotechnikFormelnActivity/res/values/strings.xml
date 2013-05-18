@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Elektrotechnik Formeln</string>
+    <string name="info_textone">Diese App dient lediglich als Formel nachschlagewerk.</string>
+    <string name="info_texttwo">Für anregungen, korrekturen oder andere Fragen können Sie sich gerne bei mir per Email melden.</string>
+    <string name="info_texttre">Es gibt noch eine Werbefrei Version dieser App.</string>
+    <string name="info_titel">Über diese App</string>
+    <string name="info_sendenbt">E-mail senden</string>
+    <string name="main_ohmschesgesetz">Ohmsches Gesetz</string>
+    <string name="main_widerstandundmaterial">Widerstand und Material</string>
+    <string name="main_tempeinfluss">Temperatureinfluss auf den Widerstand</string>
+    <string name="main_kirchhoffschesgesetz">Kirchhoffsches Gesetz</string>
+    <string name="main_stromdichte">Stromdichte</string>
+    <string name="main_elektrischestromstärke">Elektrische Stromstärke</string>
+    <string name="main_widerstandundleitert">Widerstand und Leitwert</string>
+    <string name="main_kondensator">Kondensator</string>
+    <string name="main_zugfestigkeit">Zugfestigkeit</string>
+    <string name="main_leistung">Leistung</string>
+    <string name="main_wirkleistung">Wirkleistung</string>
+    <string name="main_leistungsdreieck">Leistungsdreieck</string>
+    <string name="main_wirkungsgrad">Wirkungsgrad</string>
+    <string name="main_serieschaltung">Reihenschaltung</string>
+    <string name="main_parallelschaltung">Parallel Schaltung</string>
+    <string name="main_galvanischeselement">Galvanisches Element</string>
+    <string name="main_magnetischedurchflutung">Magnetische Durchflutung</string>
+    <string name="main_induktionsgesetz">Induktions Gesetz</string>
+    <string name="main_kosten">Kosten</string>
+    <string name="main_waerme">Wärme</string>
+    <string name="main_frequndperiodendauer">Frequenz und Periodendauer</string>
+    <string name="main_sterndreieck">Stern-Dreieck Schaltung</string>
+    <string name="main_transformator">Transformator</string>
+    <string name="main_leistungsbestimmung">Leistungsbestimmung</string>
+    <string name="btformelergenzen">Fehler/Ergänzung in der Formel?</string>
+    <string name="main_bt_senden">Senden</string>
+	<string name="groessen">Grössen:</string>
+</resources>
