@@ -214,7 +214,7 @@
 	        android:layout_width="wrap_content"
 	        android:layout_height="wrap_content"
 	        android:layout_gravity="center"
-	        android:text="R: Wirkwiederstand(Ohm)"
+	        android:text="R: Wirkwiderstand(Ohm)"
 	        android:textAppearance="?android:attr/textAppearanceSmall"
 	        android:textColor="#000000" />
 	    <TextView
@@ -222,7 +222,7 @@
 	        android:layout_width="wrap_content"
 	        android:layout_height="wrap_content"
 	        android:layout_gravity="center"
-	        android:text="Xl: Blindwiederstand(Ohm)"
+	        android:text="Xl: Blindwiderstand(Ohm)"
 	        android:textAppearance="?android:attr/textAppearanceSmall"
 	        android:textColor="#000000" />
 

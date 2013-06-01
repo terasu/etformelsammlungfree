@@ -176,7 +176,7 @@
 	        android:layout_width="wrap_content"
 	        android:layout_height="wrap_content"
 	        android:layout_gravity="center"
-	        android:text="Rv: Wiederstand(Ohm)"
+	        android:text="Rv: Widerstand(Ohm)"
 	        android:textAppearance="?android:attr/textAppearanceSmall"
 	        android:textColor="#000000" />
  		

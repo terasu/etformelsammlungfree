@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="net.etformeln.net"
     android:versionCode="54"
-    android:versionName="1.70" >
+    android:versionName="1.71" >
 
     <uses-sdk android:minSdkVersion="8" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>

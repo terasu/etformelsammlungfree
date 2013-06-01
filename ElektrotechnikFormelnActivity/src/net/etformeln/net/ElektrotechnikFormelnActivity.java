@@ -166,7 +166,7 @@ public class ElektrotechnikFormelnActivity extends Activity implements View.OnCl
     			+ titelderformel 
     			+ " Die neue formel: " 
     			+ dieformel 
-    			+ " Die Formel Grössen: "
+    			+ " Die Formel Groessen: "
     			+ diegroessen
     			+ " eine anmerkung diesbezÃ¼glich: "
     			+ dieanmerkung ;
