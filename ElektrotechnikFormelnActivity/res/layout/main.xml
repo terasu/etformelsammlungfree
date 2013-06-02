@@ -267,6 +267,7 @@
         android:text="Dämpfung,Verstärkung,Pegel"
         android:textStyle="bold"
         android:onClick="seitepegel" />
+
   
            
 	</LinearLayout>

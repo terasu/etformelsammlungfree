@@ -133,6 +133,8 @@ public class ElektrotechnikFormelnActivity extends Activity implements View.OnCl
     public void seitepegel(View view) {
     	startActivity(new Intent("net.etformeln.net.pegelverstaerkung"));
     }
+
+
     @Override
     public boolean onCreateOptionsMenu(android.view.Menu Menu) {
     	MenuInflater Inflater = getMenuInflater();

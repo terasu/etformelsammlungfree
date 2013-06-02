@@ -206,10 +206,11 @@
 
          <com.google.ads.AdView 
       	android:id="@+id/ad"
-		android:layout_width="fill_parent"
+		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		ads:adUnitId="a14fae69a4e66d4"
 		ads:loadAdOnCreate="true"
-		ads:adSize="BANNER" />
+		ads:adSize="BANNER"
+        android:layout_gravity="center"/>
 
 </LinearLayout>

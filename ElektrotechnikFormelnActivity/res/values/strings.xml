@@ -32,5 +32,5 @@
     <string name="main_leistungsbestimmung">Leistungsbestimmung</string>
     <string name="btformelergenzen">Fehler/Ergänzung in der Formel?</string>
     <string name="main_bt_senden">Senden</string>
-	<string name="groessen">Grössen:</string>
+	<string name="groessen">Grössen:</string><string name="drehstrommotoren">Drehstrommotoren</string>
 </resources>
